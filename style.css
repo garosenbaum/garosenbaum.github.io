@@ -3,4 +3,9 @@
 h1, p {
     font-family: 'Noto Sans Mono', monospace;
     font-weight: 300;
+    color: lightcoral;
+}
+
+body {
+    background-color: rgb(44, 49, 54);
 }

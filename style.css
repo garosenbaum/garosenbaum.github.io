@@ -4,11 +4,10 @@ h1, h2, p {
     font-family: 'Noto Sans Mono', monospace;
     font-weight: 400;
     color: lightcoral;
-    text-align: center;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 40px;
 }
 
 h2 {

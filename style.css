@@ -1,32 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400&display=swap');
 
-.outer {
-    margin: 0 auto;
-    margin-left: 75px;
+.pagenav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
 }
 
-.inner {
-    margin-left: 75px;
+.title {
+    margin-left: 50px;
+    margin-top: -30px;
 }
 
-h1, h2, p, li {
-    font-family: 'Noto Sans Mono', monospace;
-    font-weight: 400;
+.subheading {
+    margin-left: 100px;
+    margin-top: -15px;
 }
 
+/* Getting a bit meta now aren't we... */
+.subsubheading { 
+    margin-left: 60px;
+    margin-top: -20px;
+}
 p, li {
-    color: #E6E6E6;
+    color: #4F6367;
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-h1 {
+
+a {
     color: #297373;
-    font-size: 30px;
+}
+
+a:visited {
+    color: #30a5a5;
+}
+
+a:hover {
+    color: #B8D8D8;
+}
+
+h1 {
+    color: #FE5F55;
+    font-size: 60px;
 }
 
 h2 {
-    color: #FF8552;
-    font-size: 24px;
+    color: #FE5F55;
+    font-size: 40px;
 }
 
 body {
-    background-color: #39393A;
+    background-color: #EEF5DB;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 400;
 }

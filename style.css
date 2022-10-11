@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400&display=swap');
 
+.footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
 .pagenav {
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
 }
 
+.current {
+    color: #30a5a5;
+}
 .title {
     margin-left: 50px;
     margin-top: -30px;
@@ -30,10 +38,6 @@ p, li {
 
 a {
     color: #297373;
-}
-
-a:visited {
-    color: #30a5a5;
 }
 
 a:hover {

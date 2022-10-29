@@ -5,15 +5,19 @@
     bottom: 10px;
     width: 100%;
 }
+
+/* links at the top */
 .pagenav {
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
 }
 
+/* to highlight the current page */
 .current {
     color: #30a5a5;
 }
+
 .title {
     margin-left: 50px;
     margin-top: -30px;

@@ -27,12 +27,17 @@
     margin-left: 100px;
     margin-top: -15px;
 }
-
 /* Getting a bit meta now aren't we... */
 .subsubheading { 
     margin-left: 60px;
     margin-top: -20px;
 }
+
+.sinewave {
+    margin-left: 960px;
+    margin-top: -575px;
+}
+
 p, li {
     color: #4F6367;
     font-size: 22px;

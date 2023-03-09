@@ -1,70 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
-.footer {
-    position: fixed;
-    bottom: 10px;
-    width: 100%;
+.center {
+    text-align: center;
 }
 
-/* links at the top */
-.pagenav {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 20px;
+.pfpCrop {
+    overflow: hidden;
+    /* height: 25vmin;
+    width: 25vmin; */
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    outline-style: solid;
+    outline-offset: 3px;
+    margin: auto;
+    margin-top: 10vh
 }
 
-/* to highlight the current page */
-.current {
-    color: #30a5a5;
-}
-
-.title {
-    margin-left: 50px;
-    margin-top: -30px;
-}
-
-.subheading {
-    margin-left: 100px;
-    margin-top: -15px;
-}
-/* Getting a bit meta now aren't we... */
-.subsubheading { 
-    margin-left: 60px;
-    margin-top: -20px;
-}
-
-.sinewave {
-    margin-left: 960px;
-    margin-top: -575px;
-}
-
-p, li {
-    color: #4F6367;
-    font-size: 22px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-a {
-    color: #297373;
-}
-
-a:hover {
-    color: #B8D8D8;
-}
-
-h1 {
-    color: #FE5F55;
-    font-size: 60px;
-}
-
-h2 {
-    color: #FE5F55;
-    font-size: 40px;
+#pfp {
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
 }
 
 body {
-    background-color: #EEF5DB;
-    font-family: 'Noto Sans Mono', monospace;
-    font-weight: 400;
+    background-color: rgb(30, 30, 30);
+
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(250, 235, 205);
+}
+
+p {
+    margin: auto;
+    max-width: 500px;
+    font-size: 18px;
 }

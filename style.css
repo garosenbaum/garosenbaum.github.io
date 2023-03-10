@@ -6,12 +6,10 @@
 
 .pfpCrop {
     overflow: hidden;
-    /* height: 25vmin;
-    width: 25vmin; */
     height: 250px;
     width: 250px;
-    border-radius: 50%;
-    outline-style: solid;
+    border-radius: 1000px;
+    outline: solid;
     outline-offset: 3px;
     margin: auto;
     margin-top: 10vh

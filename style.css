@@ -5,13 +5,10 @@
 }
 
 #pfp {
-    border-radius: 100%;
-    outline: 3px solid;
-    outline-offset: 3px;
     margin: auto;
     margin-top: 10vh;
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
 }
 
 body {

@@ -4,21 +4,14 @@
     text-align: center;
 }
 
-.pfpCrop {
-    overflow: hidden;
-    height: 250px;
-    width: 250px;
+#pfp {
     border-radius: 100%;
     outline: 3px solid;
     outline-offset: 3px;
     margin: auto;
-    margin-top: 10vh
-}
-
-#pfp {
-    margin: 0 auto;
-    height: 100%;
-    width: auto;
+    margin-top: 10vh;
+    height: 250px;
+    width: 250px;
 }
 
 body {

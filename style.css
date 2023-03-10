@@ -8,8 +8,8 @@
     overflow: hidden;
     height: 250px;
     width: 250px;
-    border-radius: 1000px;
-    outline: solid;
+    border-radius: 100%;
+    outline: 3px solid;
     outline-offset: 3px;
     margin: auto;
     margin-top: 10vh

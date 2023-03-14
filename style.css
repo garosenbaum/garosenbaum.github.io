@@ -6,6 +6,8 @@
 
 .iconbar {
     display: flex;
+    margin: auto;
+    width: 10vw;
     justify-content: space-evenly;
     margin-bottom: -6vh;
 }

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url("https://use.typekit.net/dcy8ise.css");
 
 .center {
     text-align: center;
@@ -8,7 +9,6 @@
     display: flex;
     margin: auto;
     justify-content: center;
-    margin-bottom: -6vh;
 }
 
 .icon {
@@ -21,16 +21,44 @@
 }
 
 #pfp {
-    margin-top: 2.5vh;
-    height: 350px;
-    width: 350px;
-    margin-bottom: -3vh;
+    height: 625px;
+    width: 625px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+#maintitle_1 {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 72pt;
+    position: absolute;
+    top: 31.5%;
+    left: 40.5%;
+    right: 35%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+#maintitle_2 {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    position: absolute;
+    font-size: 72pt;
+    top: 43.5%;
+    left: 52.5%;
+    transform: translate(-50%, -50%);
+    background-color: white;
 }
 
 body {
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(255, 255, 255);
     font-family: 'Roboto Mono', monospace;
-    color: rgb(250, 235, 205);
+    color: rgb(0, 0, 0);
 }
 
 p {
